@@ -1,22 +1,42 @@
 
 /* reset */
+
+
+:root{
+
+    /* VARIABLES */
+
+    --HEAD--COLORS: linear-gradient(to top, rgb(165, 42, 42, 0.5), rgb(238, 238, 38, 0.5));
+
+/*-----------------------*/
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html{
+    background-color: brown;
+}
+
 body{
     font-family: sans-serif,'Times New Roman', Times, serif;
-    /* background-color: gray ; */
-    text-align: center;
-    
+    background-color: white;
+    width: 50rem;
+    margin:auto;
+  
 }
 
 h1{
-    font-size: 48px;
+    font-size: 69px;
     font-weight: bolder;
-    color:;
+    color: white;
+    font-family: 'Tangerine';
+    text-shadow: 4px 4px 4px orangered;
+    
 }
 
 h2{
@@ -27,10 +47,11 @@ h2{
 ul{
     display: flex;
     list-style: none;
-    gap: 15px;
 }
 p{
     margin: 10px 0;
+    font-style: italic;
+    color: rgb(42, 49, 49);
 }
 button{
     padding: 4px 20px;
@@ -39,44 +60,55 @@ button{
     border: 0;
 }
 
-a{
+a, a:visited, a:active{
     text-decoration: none;
+    padding: 12px 16px;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+a:hover{
+    background-image: var(--HEAD--COLORS);
+    color: whitesmoke;
 }
 
 .header{
-    padding: 0 20px 20px 20px;
-    background-color: cornflowerblue;
+    padding: 12px;
+    background-image: var(--HEAD--COLORS);
 }
 
 .nav-container{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(165, 42, 42, 0.5);
+    
 }
 
 .identity{
     display: flex;
-    padding: 0 auto;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
 
 }
 
 .identity-logo{
-    width: 400px;
+    width: 50%;
     height: auto;
     text-align: center;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
 }
 
 .identity-info{
-    /* flex: 1; */
+    flex: 1;
     align-self: center;
     justify-self: center;
     padding: 12px;
-    border: 1px solid black;
-    width: 400px;
-    height: 100%;
+    
 }
 
 .img{
@@ -99,8 +131,7 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
-   
-    
+    flex-wrap: wrap;
 }
 
 .customer-reviews{
@@ -109,7 +140,7 @@ a{
 }
 
 .customer{
-    margin: 2rem;
+    margin: 15px;
 }
 
 .caption{
