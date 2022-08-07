@@ -10,6 +10,7 @@ body{
     font-family: sans-serif,'Times New Roman', Times, serif;
     /* background-color: gray ; */
     
+    
 }
 
 h1{
@@ -19,8 +20,8 @@ h1{
 }
 
 h2{
-    font-size: 18px;
-
+    font-size: 20px;
+    text-align: center;
 }
 
 ul{
@@ -91,4 +92,45 @@ a{
 
 .order-btn{
     background-color: rgb(4, 74, 102);
+}
+
+.reviews{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.customer-reviews{
+    padding-top: 2rem;
+    margin-bottom: 25px;
+}
+
+.customer{
+    margin: 2rem;
+}
+
+.caption{
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote-motivation{
+    background-color: #d3d3d3;
+    height: 20vh;
+    text-align: center;
+    padding: 26px;
+}
+
+.words{
+    font-style: oblique;
+    font-size: 24px;
+    padding: 15px;
+
+}
+
+.legend{
+    text-align: right;
+    margin-top: 22px;
 }
