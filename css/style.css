@@ -1,0 +1,94 @@
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif,'Times New Roman', Times, serif;
+    /* background-color: gray ; */
+    
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:;
+}
+
+h2{
+    font-size: 18px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+p{
+    margin: 10px 0;
+}
+button{
+    padding: 4px 20px;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding: 0 20px 20px 20px;
+    background-color: cornflowerblue;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.identity{
+    display: flex;
+    padding: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.identity-logo{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    /* flex-shrink: 0; */
+}
+
+.identity-info{
+    /* flex: 1; */
+    align-self: center;
+    justify-self: center;
+    padding: 12px;
+    border: 1px solid black;
+    width: 400px;
+    height: 100%;
+}
+
+.img{
+    width: 80%;
+    height: auto;
+    
+}
+
+.btn-signup{
+    background-color: rgb(55, 55, 187);
+    margin: 12px 0;
+}
+
+.order-btn{
+    background-color: rgb(4, 74, 102);
+}
