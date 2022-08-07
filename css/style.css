@@ -20,13 +20,13 @@
 }
 
 html{
-    background-color: orangered
+    background-color: rgba(255, 68, 0, 0.774);
 }
 
 body{
     font-family: sans-serif,'Times New Roman', Times, serif;
     background-color: white;
-    width: 50rem;
+    width: 60rem;
     margin:auto;
   
 }
@@ -43,7 +43,7 @@ h1{
 h2{
     font-size: 1.7rem;
     text-align: center;
-    /* border-bottom: 1px solid #363131; */
+    margin-bottom: 22px;
     text-decoration: underline;
     color: brown;
 }
@@ -62,6 +62,8 @@ button{
     color: whitesmoke;
     border-radius: 8px;
     border: 0;
+    font-size: 16px;
+    background-color: brown;
 }
 
 a, a:visited, a:active{
@@ -108,7 +110,6 @@ a:hover{
 }
 
 .identity-info{
-    flex: 1;
     align-self: center;
     justify-self: center;
     padding: 12px;
@@ -122,13 +123,13 @@ a:hover{
 }
 
 .btn-signup{
-    background-color: rgb(55, 55, 187);
     margin: 12px 0;
+    
 }
 
-.order-btn{
-    background-color: hsl(209, 89%, 36%);
+.order-signup .order-btn{
     border: 2px solid white;
+    
 }
 
 .reviews{
@@ -140,8 +141,8 @@ a:hover{
 
 .customer-reviews{
     padding-top: 2rem;
-    margin-bottom: 25px;
     background-color: rgb(250, 249, 249);
+    height: 650px;
 }
 
 .customer{
@@ -167,34 +168,58 @@ a:hover{
 }
 
 .quote-motivation{
-    background-color: #d3d3d3;
-    height: 20vh;
+    background-image: var(--HEAD--COLORS--REVERSE);
+    height: 30vh;
     text-align: center;
     padding: 26px;
-    margin: 2.5rem 0;
+    margin-top: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .words{
     font-style: oblique;
-    font-size: 24px;
-    padding: 15px;
-
+    font-size: 28px;
+  
+    line-height: 1.5;
+    width: 65%;
+    margin: 25px;
+    align-self: center;
+    color: #1d1a1a;
 }
 
 .legend{
-    text-align: right;
-    margin-top: 22px;
+    align-self: end;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sign-text{
+    color:white;
 }
 
 .order-signup{
-    background-color: hsl(209, 89%, 36%);
+    background-color: brown;
     color: white;
     border-radius: 12px;
-    padding: 2rem;
+    padding: 2rem 0;
     display: flex;
-    justify-content: space-between;
-    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
 
+}
+
+.signup-here{
+    height: 25vh;
+    display: flex;
+    background-color: rgb(250, 249, 249);
+}
+
+.left-side{
+    margin-right: 35px;
 }
 
 /* FOOTER */
