@@ -224,8 +224,16 @@ a:hover{
 
 /* FOOTER */
 .footer{
-    color: white;
-    padding: 1rem;
-    background-color: darkblue;
+    padding: 8px;
+    padding-bottom: 0;
+    background-image: linear-gradient(to top, rgba(165, 42, 42, 0.877), rgba(238, 238, 38, 0.664));
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
+.last{
+    margin-top: 16px;
+}
